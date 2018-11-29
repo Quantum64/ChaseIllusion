@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/ChaseIllusion/precache-manifest.3b99ab5d7276bf6ed885b392ea48e085.js"
+  "/ChaseIllusion/precache-manifest.a45ad0b14fd0dc34b0f10762fb860222.js"
 );
 
 workbox.clientsClaim();
