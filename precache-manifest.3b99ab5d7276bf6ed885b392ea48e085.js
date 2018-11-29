@@ -4,19 +4,19 @@ self.__precacheManifest = [
     "url": "/ChaseIllusion/static/js/runtime~main.aafa5761.js"
   },
   {
-    "revision": "0f5d690973b9c1ab226c",
-    "url": "/ChaseIllusion/static/js/main.0f5d6909.chunk.js"
+    "revision": "5ca485afb7edab778fc3",
+    "url": "/ChaseIllusion/static/js/main.5ca485af.chunk.js"
   },
   {
     "revision": "3e636d979c74e5f4465d",
     "url": "/ChaseIllusion/static/js/1.3e636d97.chunk.js"
   },
   {
-    "revision": "0f5d690973b9c1ab226c",
+    "revision": "5ca485afb7edab778fc3",
     "url": "/ChaseIllusion/static/css/main.35b1b414.chunk.css"
   },
   {
-    "revision": "612d96812037b8dde053454a1dba2dd0",
+    "revision": "8606d8f02cd87ad62e8affc0249d6043",
     "url": "/ChaseIllusion/index.html"
   }
 ];
