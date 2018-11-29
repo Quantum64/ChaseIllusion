@@ -11,7 +11,9 @@ class App extends Component {
     this.stage = this.application.stage;
     this.stage.interactive = true;
     this.stage.mousemove = event => this.updatePosition(event);
+    this.stage.touchmove = event => this.updatePosition(event);
     this.stage.mousedown = event => this.handleClick(event);
+    this.stage.tap = event => this.handleClick(event);
     this.mouseX = 0;
     this.mouseY = 0;
     this.mode = -1;
@@ -77,6 +79,8 @@ class App extends Component {
 
     this.map.tilePosition.x += offset.x * this.mode;
     this.map.tilePosition.y += offset.y * this.mode;
+    this.map.tilePosition.x %= this.map.texture.orig.width;
+    this.map.tilePosition.y %= this.map.texture.orig.height;
     this.circles[1].x = (this.application.renderer.width / 2) + (position.x) - (this.circles[1].width / 2);
     this.circles[1].y = (this.application.renderer.height / 2) + (position.y) - (this.circles[1].height / 2);
   }
